@@ -1,0 +1,33 @@
+## .NET / ASP.NET Core
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.vscode/
+*.swp
+
+## User secrets
+appsettings.*.json
+!appsettings.Development.json
+
+## Docker
+.env
+
+## Migrations (keep in git, but not snapshots)
+**/Migrations/*Designer.cs
+
+## Build output
+publish/
+artifacts/
+
+## Logs
+logs/
+*.log
+
+## Rider
+.idea/
+
+## OS
+.DS_Store
+Thumbs.db
